@@ -1,0 +1,93 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #9183e5, #7b6fe5);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background: #2D2A37;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.22) inset,
+    0px 6px 8px 0px rgba(255, 255, 255, 0.1) inset,
+    0px 8px 17px 0px rgba(0, 0, 0, 0.29),
+    0px 30px 30px 0px rgba(0, 0, 0, 0.26),
+    0px 68px 41px 0px rgba(0, 0, 0, 0.15),
+    0px 120px 48px 0px rgba(0, 0, 0, 0.04),
+    0px 188px 52px 0px rgba(0, 0, 0, 0.01),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);        
+    text-align: center;
+    width: 250px;
+}
+
+.display {
+    width: 100%;
+    padding: 15px;
+    font-size: 2rem;
+    color: #fff;
+    text-align: right;
+    background: #2D2A37;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    background: #2D2A37;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    background: #2d2d3f;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 2px 3px 0px rgba(255, 255, 255, 0.06) inset,
+    0px 0px 2px 0px rgba(0, 0, 0, 0.29),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.26),
+    0px 4px 6px 0px rgba(0, 0, 0, 0.1),
+    0px 7px 7px 0px rgba(0, 0, 0, 0.04),
+    0px 11px 7px 0px rgba(0, 0, 0, 0.01);
+}
+
+.btn:active {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3), 
+                inset -5px -5px 10px rgba(255, 255, 255, 0.1);
+}
+
+.operator {
+    background: #462878;
+}
+
+.equal {
+    background: #7F45E2;
+}
+
+.ce {
+    color: #975DFA;
+}
