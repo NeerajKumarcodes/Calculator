@@ -31,3 +31,16 @@ A modern, **neumorphic-style** web calculator built using **HTML, CSS, and JavaS
    ```sh
    git clone https://github.com/NeerajKumarCodes/Calculator.git
    cd calculator
+   ```
+
+2. **Launch the Calculator**
+  By double clicking index.html file.
+
+---
+
+## 📌 Author
+
+**Neeraj Kumar**  
+🚀 Full-Stack Developer | MERN Stack | Python | SQL  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/maineerajhu/) | 🌎 [Portfolio](https://neerajkumarcodes.github.io/Portfolio/)
